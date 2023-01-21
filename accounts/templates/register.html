@@ -7,6 +7,51 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
 
+	<style>
+		body,
+		html {
+			margin: 0;
+			padding: 0;
+			height: 100%;
+			background: #ebeff5;
+		}
+		.user_card {
+			width: 350px;
+			margin-top: auto;
+			margin-bottom: auto;
+			background: linear-gradient(206deg, rgba(141,141,237,1) 2%, rgba(0,212,255,1) 100%);
+			position: relative;
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+			padding: 20px;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			border-radius: 5px;
+		}
+        .register_btn {
+			width: 100%;
+            border: 1px solid white;
+			background: #303b42;
+			color: white;
+		}
+		.form_container {
+			margin-top: 10px;
+		}
+		#form-title{
+			color: white;
+		}
+		.login_container {
+			padding: 10px;
+		}
+		.input-group-text {
+			background: #303b42;
+			color: white;
+            width: 40px;
+            height: 38px;
+            border: 1px solid white;
+		}
+	</style>
+
 </head>
 <body>
 	<div class="container h-100">
@@ -20,15 +65,27 @@
 					<form method="POST" action="">
 						{% csrf_token %}
 						<div class="input-group mb-2">
+							<div class="input-group-append">
+								<span class="input-group-text"><i class="fas fa-user"></i></span>
+							</div>
 							{{form.username}}
 						</div>
 						<div class="input-group mb-2">
+							<div class="input-group-append">
+								<span class="input-group-text"><i class="fas fa-envelope-square"></i></span>
+							</div>
 							{{form.email}}
 						</div>
 						<div class="input-group mb-2">
+							<div class="input-group-append">
+								<span class="input-group-text"><i class="fas fa-key"></i></span>
+							</div>
 							{{form.password1}}
 						</div>
 						<div class="input-group mb-2">
+							<div class="input-group-append">
+								<span class="input-group-text"><i class="fas fa-key"></i></span>
+							</div>
 							{{form.password2}}
 						</div>
 
@@ -42,7 +99,7 @@
 				
 				<div class="mt-3">
 					<div class="d-flex justify-content-center links">
-						Already have an account? <a href="{% url 'login' %}" class="ml-2"> Login</a>
+						Already have an account? <a href="{% url 'login' %}" class="ml-2" style="text-decoration: none; color: white;"> Login</a>
 					</div>
 				</div>
 			</div>
