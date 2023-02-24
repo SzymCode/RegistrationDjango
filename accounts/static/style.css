@@ -28,6 +28,8 @@ body, html {
 }
 .input-group-text {
 	background: #303b42;
+	width: 40px; !important;
+	height: 38px; !important;
 	color: white;
 	border: 1px solid white
 }
