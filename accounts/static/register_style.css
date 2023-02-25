@@ -3,9 +3,9 @@
 	border: 1px solid white;
 	background: #303b42;
 	color: white;
-	border-radius: 0.25rem 0.25rem 0.25rem 0.25rem;
+	border-radius: 0.25rem;
 	margin-top: 0;
-	margin-bottom: 0;
+	margin-bottom: 10px;
 }
 @media (max-width: 1000px) {
     .fa-envelope-square {

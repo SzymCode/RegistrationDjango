@@ -28,20 +28,22 @@ body, html {
 }
 .input-group-text {
 	background: #303b42;
+	width: 40px;
+	height: 38px;
 	color: white;
 	border: 1px solid white
 }
 #messages {
-	color: white;
+	color: black;
 	padding: 5px;
-	margin: 0;
-	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 15px;
 }
 .errorlist {
-	color: white;
+	color: black;
 	padding: 5px;
-	margin: 0 0 0 20px;
-	text-align: center;
+	margin: 0;
 }
 
 @media (max-width: 1000px) {
