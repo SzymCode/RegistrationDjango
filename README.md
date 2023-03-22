@@ -15,20 +15,44 @@
 User registration and login template connected with database.
 
 
-## Instructions
-• Clone this repository.
+<details><summary> <h2>  🛠️ Installation:  </summary>
 
-• Install modules from requirements.txt
+• First make sure u have installed latest versions of [Python, Django.](https://www.geeksforgeeks.org/django-introduction-and-installation/)
+
+• Clone this repository or download latest release.
+
+• Install modules from requirements.txt in **RegistrationDjango** directory.
 
 ```bash
 pip install -r requirements.txt
 ```
 
-• Run 
+### **Make sure u have installed all modules!**
+
+• Change SECRET_KEY in **RegistrationDjango** settings or create .env file with following data:
+
+```bash
+SECRET_KEY = 'example_secret_key'
+```
+
+• Create or update existing database in **RegistrationDjango** directory:
+
+```bash
+python manage.py migrate
+```
+
+</details> 
+
+
+<details><summary> <h2>  🚀 Run:  </summary>
+
+• **RegistrationDjango** directory:
 
 ```bash
 python manage.py runserver
 ```
+
+</details>
 
 ## Preview images
 
