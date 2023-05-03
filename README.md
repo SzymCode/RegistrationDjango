@@ -12,7 +12,7 @@
 
 # RegistrationDjango
 
-User registration and login template connected with database.
+User registration and login template connected with database. [Preview](https://registration-django.herokuapp.com)
 
 
 <details><summary> <h2>  🛠️ Installation:  </summary>
@@ -54,7 +54,3 @@ python manage.py runserver
 
 </details>
 
-## Preview images
-
-![app_preview](https://github.com/SzymCode/RegistrationDjango/blob/main/preview_images/login_preview.png)
-![app_preview](https://github.com/SzymCode/RegistrationDjango/blob/main/preview_images/register_preview.png)
