@@ -48,33 +48,35 @@
 						</div>
 
 				   		<div class="d-flex justify-content-center mt-3 login_container">
-				 			<input class="btn register_btn" type="submit" value="Register account">
+				 			<input class="btn btn-outline-info register_btn" type="submit" value="Register account">
 				   		</div>
 					</form>
 				</div>
 
 				{% if form.errors %}
-                    {% for field, errors in form.errors.items %}
-                        {% for error in errors %}
-                            <p id="errorlist">- {{ error }}</p>
+                        {% for field, errors in form.errors.items %}
+                            {% for error in errors %}
+                                <p id="errorlist">- {{ error }}</p>
+                            {% endfor %}
                         {% endfor %}
-                    {% endfor %}
                 {% endif %}
-				
+
 				<div class="mt-2">
 					<div class="d-flex justify-content-center links" style="margin-top: -5px">
-						Already have an account? <a href="{% url 'login' %}" class="ml-2" style="text-decoration: none; color: white;"> Login</a>
+						Already have an account? <a href="{% url 'login' %}" class="ml-2" style="text-decoration: none; color: #03befc;"> Login</a>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 	<script>
+
 		var formFields = document.getElementsByTagName('input')
 		formFields[1].placeholder='Username...';
 		formFields[2].placeholder='Email...';
 		formFields[3].placeholder='Enter password...';
 		formFields[4].placeholder='Re-enter password...';
+
 
 		for (var field in formFields){
 			formFields[field].className += ' form-control'

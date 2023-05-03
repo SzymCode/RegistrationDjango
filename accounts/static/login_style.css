@@ -1,8 +1,11 @@
+h3 {
+	font-size: 40px;
+}
+.form_container {
+	margin-top: 15px;
+}
 .signin_btn {
 	width: 100%;
-	border: 1px solid white;
-	background: #303b42;
-	color: white;
 	margin-top: 0;
 	margin-bottom: 5px;
 }
@@ -21,7 +24,6 @@
 		width: 400px;
 		height: 80px;
 		font-size: 30px;
-		border: 2px solid white;
 		border-radius: 10px;
 		margin-top: 20px;
 		margin-bottom: 10px;

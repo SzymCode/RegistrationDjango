@@ -1,4 +1,5 @@
 body, html {
+	overflow: hidden;
 	margin: 0;
 	padding: 0;
 	height: 100%;
@@ -8,7 +9,7 @@ body, html {
 	width: 350px;
 	margin-top: auto;
 	margin-bottom: auto;
-	background: linear-gradient(206deg, rgba(141,141,237,1) 2%, rgba(0,212,255,1) 100%);
+	background: whitesmoke;
 	position: relative;
 	display: flex;
 	justify-content: center;
@@ -17,21 +18,18 @@ body, html {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	border-radius: 5px;
 }
-.form_container {
-	margin-top: 10px;
-}
 #form-title {
-	color: white;
+	color: black;
 }
 .login_container {
 	padding: 10px;
 }
 .input-group-text {
 	background: #303b42;
+	color: white;
 	width: 40px;
 	height: 38px;
-	color: white;
-	border: 1px solid white
+	border: 1px solid #303b42;
 }
 #messages {
 	color: black;
@@ -58,7 +56,7 @@ body, html {
 	.user_card {
 		width: 100%;
 		font-size: 35px;
-		border-radius: 20px;
+		border-radius: 10px;
 		padding: 40px;
   	}
 	.input-group-text {
@@ -72,7 +70,6 @@ body, html {
 		border-width: 2px;
 		margin-bottom: 5px;
 	}
-
 	.form_container {
 		margin-top: 30px;
 	}
