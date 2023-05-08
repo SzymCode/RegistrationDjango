@@ -10,14 +10,20 @@
 </div>
 
 
+
 # RegistrationDjango
 
 User registration and login template connected with database. [Preview](https://registration-django.herokuapp.com)
+## ⭐ Features 
+
+🔹 User login and registration </br>
+🔹 Custom admin panel </br>
+
 
 
 <details><summary> <h2>  🛠️ Installation:  </summary>
 
-• First make sure u have installed latest versions of [Python, Django.](https://www.geeksforgeeks.org/django-introduction-and-installation/)
+• First make sure u have installed latest versions of [Python, Django](https://www.geeksforgeeks.org/django-introduction-and-installation/).
 
 • Clone this repository or download latest release.
 
@@ -44,6 +50,7 @@ python manage.py migrate
 </details> 
 
 
+
 <details><summary> <h2>  🚀 Run:  </summary>
 
 • **RegistrationDjango** directory:
@@ -54,3 +61,14 @@ python manage.py runserver
 
 </details>
 
+
+
+<details><summary> <h2> ❓ Usage  </summary>
+
+• **localhost:8000** - RegistrationDjango main page
+
+• **localhost:8000/login** & **/register** - Django login and registration
+
+• **localhost:8000/admin** - Django admin panel
+
+</details>  
