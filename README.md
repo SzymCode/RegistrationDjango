@@ -1,31 +1,15 @@
-<div align="center">
+# RegistrationDjango <div> ![Django](https://img.shields.io/badge/Django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white&style=plastic) ![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white&style=plastic) ![CSS3](https://img.shields.io/badge/CSS3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white&style=plastic) ![SQLite](https://img.shields.io/badge/SQLite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white&style=plastic) </div>
 
-![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)\
-![Known Vulnerabilities](https://snyk.io/test/github/Szymcode/RegistrationDjango/badge.svg)
-<a href="https://codeclimate.com/github/SzymCode/RegistrationDjango/maintainability"><img src="https://api.codeclimate.com/v1/badges/b887d06224248249c5eb/maintainability" /></a>\
-![License](https://img.shields.io/badge/license-MIT-blue)
-</div>
+User registration and login template connected with database. \
+[Preview!](https://registration-django.herokuapp.com)
 
 
 
-# RegistrationDjango
+<details><summary> <h2>  🛠️ Installation  </summary>
 
-User registration and login template connected with database. [Preview](https://registration-django.herokuapp.com)
-## ⭐ Features 
+• First make sure u have installed latest versions of [Python, Django](https://www.geeksforgeeks.org/django-introduction-and-installation/)
 
-🔹 User login and registration </br>
-🔹 Custom admin panel </br>
-
-
-
-<details><summary> <h2>  🛠️ Installation:  </summary>
-
-• First make sure u have installed latest versions of [Python, Django](https://www.geeksforgeeks.org/django-introduction-and-installation/).
-
-• Clone this repository or download latest release.
+• Clone this repository or download latest release
 
 • Install modules from requirements.txt in **RegistrationDjango** directory.
 
@@ -51,7 +35,7 @@ python manage.py migrate
 
 
 
-<details><summary> <h2>  🚀 Run:  </summary>
+<details><summary> <h2>  🚀 Run  </summary>
 
 • **RegistrationDjango** directory:
 
