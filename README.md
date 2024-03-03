@@ -4,8 +4,9 @@ User registration and login template connected with database. \
 [Preview!](https://registration-django.herokuapp.com)
 
 
-
-<details><summary> <h2>  🛠️ Installation  </summary>
+<br>
+<details><summary> 🛠️ Installation </summary>
+<br>
 
 • First make sure u have installed latest versions of [Python, Django](https://www.geeksforgeeks.org/django-introduction-and-installation/)
 
@@ -31,11 +32,13 @@ SECRET_KEY = 'example_secret_key'
 python manage.py migrate
 ```
 
+<br>
 </details> 
 
 
 
-<details><summary> <h2>  🚀 Run  </summary>
+<details><summary> 🚀 Run </summary>
+<br>
 
 • **RegistrationDjango** directory:
 
@@ -43,12 +46,14 @@ python manage.py migrate
 python manage.py runserver
 ```
 
+<br>
 </details>
 
 
 
-<details><summary> <h2> ❓ Usage  </summary>
-
+<details><summary> ❓ Usage </summary>
+<br>
+  
 • **localhost:8000** - RegistrationDjango main page
 
 • **localhost:8000/login** & **/register** - Django login and registration
