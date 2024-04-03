@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/2.1/ref/settings/
 
 import os
 from decouple import config
+import django_heroku
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -25,7 +26,7 @@ SECRET_KEY = config("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['registration-django.herokuapp.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['registration-django-sc-4b31f06e64f2.herokuapp.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
@@ -123,7 +124,6 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 
 
@@ -172,3 +172,5 @@ JAZZMIN_SETTINGS = {
         {"app": "accounts"},
     ],
 }
+
+django_heroku.settings(locals())
